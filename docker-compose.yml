@@ -1,4 +1,3 @@
-
 services:
   django-app:
     container_name: django_app_container
