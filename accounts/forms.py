@@ -26,4 +26,7 @@ class RegistrationForm(forms.ModelForm):
         cleaned_date = super(RegistrationForm , self).clean()
         password = cleaned_date.get('password')
         confirm_password = cleaned_date.get('confirm_password')
-        return super().clean()
+        if password != confirm_password:
+            raise forms.ValidationError(
+                "Password dose not match!"
+            ) 
