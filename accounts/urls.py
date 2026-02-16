@@ -9,4 +9,7 @@ urlpatterns = [
     path('' , views.dahboard , name='dahboard'),
     path('activate/<uidb64>/<token>/', views.activate, name='activate'),
     path('forgotPassword/', views.forgotPassword, name='forgotPassword'),
+    path('resetpassword_validete/<uidb64>/<token>/', views.resetpassword_validete, name='resetpassword_validete'),
+    path('resetPassword/', views.resetPassword, name='resetPassword'),
+
 ]
