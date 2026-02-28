@@ -65,7 +65,17 @@
                                         <tbody>
                                             {% for item in ordered_products %}
                                             <tr>
-                                                <td>{{item.product.product_name}}</td>
+                                                <td>
+                                                    {{ item.product.product_name }}
+                                                    <p class="text-muted small">
+                                                        {% if item.variations.all.exists %}
+                                                            {% for i in item.variations.all %}
+                                                                {{ i.variation_category|capfirst }} :
+                                                                {{ i.variation_value|capfirst }} <br>
+                                                            {% endfor %}
+                                                        {% endif %}
+                                                    </p>
+                                                </td>
                                                 <td class="text-center">{{item.quantity}}</td>
                                                 <td class="text-center">${{item.product_price}} USD</td>
                                             </tr>
