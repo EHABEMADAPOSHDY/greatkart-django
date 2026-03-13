@@ -219,60 +219,60 @@ orders/
 
 ## الصفحة الرئيسية
 
-ضع صورة هنا
+
 
 ```
-images/home.png
+images/1.png
 ```
 
 ---
 
 ## صفحة المتجر
 
-ضع صورة هنا
+
 
 ```
-images/store.png
+images/2.png
 ```
 
 ---
 
 ## صفحة المنتج
 
-ضع صورة هنا
+
 
 ```
-images/product.png
+images/8.png
 ```
 
 ---
 
 ## عربة التسوق
 
-ضع صورة هنا
+
 
 ```
-images/cart.png
+images/7.png
 ```
 
 ---
 
 ## لوحة تحكم المستخدم
 
-ضع صورة هنا
+
 
 ```
-images/dashboard.png
+images/9.png
 ```
 
 ---
 
 ## صفحة الطلبات
 
-ضع صورة هنا
+
 
 ```
-images/orders.png
+images/5.png
 ```
 
 ---
