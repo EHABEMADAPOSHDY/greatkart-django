@@ -222,7 +222,7 @@ orders/
 
 
 ```
-images/1.png
+image/1.png
 ```
 
 ---
@@ -232,7 +232,7 @@ images/1.png
 
 
 ```
-images/2.png
+image/2.png
 ```
 
 ---
@@ -242,7 +242,7 @@ images/2.png
 
 
 ```
-images/8.png
+image/8.png
 ```
 
 ---
@@ -252,7 +252,7 @@ images/8.png
 
 
 ```
-images/7.png
+image/7.png
 ```
 
 ---
@@ -262,7 +262,7 @@ images/7.png
 
 
 ```
-images/9.png
+image/9.png
 ```
 
 ---
@@ -272,7 +272,7 @@ images/9.png
 
 
 ```
-images/5.png
+image/5.png
 ```
 
 ---
