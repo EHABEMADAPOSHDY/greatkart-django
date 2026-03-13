@@ -1,5 +1,5 @@
 # Use official Python image
-FROM python:3.11
+FROM python:3.11-slim
 
 # Set working directory
 WORKDIR /app
@@ -18,4 +18,4 @@ RUN python manage.py collectstatic --noinput
 EXPOSE 8080
 
 # Start server
-CMD ["gunicorn", "projectname.wsgi:application", "--bind", "0.0.0.0:8080"]
+CMD ["gunicorn", "greatkart.wsgi:application", "--bind", "0.0.0.0:8080"]
